@@ -1,0 +1,15 @@
+.git
+.gitignore
+*.md
+.env
+.env.*
+Dockerfile
+.dockerignore
+**/node_modules
+**/npm-debug.log
+**/.next
+**/dist
+**/coverage
+
+# Ensure service dirs are always in build context
+!packages/
